@@ -34,6 +34,8 @@ public class Homework1 {
         System.out.printf("char = %d", i ).println();
 
 
+        System.out.println("Число 345 -> 3, 4, 5");
+
 
     }
 }
