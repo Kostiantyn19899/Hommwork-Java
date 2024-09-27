@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Homework2 {
     public static void main(String[] args) {
  // ----------------------  1  ------------------------------------------------------
-//        String str = new String("I study Java");
-//        System.out.println(str.charAt(str.length()-1));
-//        System.out.println(str.contains("Java"));
-//        System.out.println(str.substring(8, 12));
-//        System.out.println(str.replace("a", "o"));
-//        System.out.println(str.toUpperCase());
-//        System.out.println(str.toLowerCase());
+        String str = new String("I study Java");
+        System.out.println(str.charAt(str.length()-1));
+        System.out.println(str.contains("Java"));
+        System.out.println(str.substring(8, 12));
+        System.out.println(str.replace("a", "o"));
+        System.out.println(str.toUpperCase());
+        System.out.println(str.toLowerCase());
 
 //------------------------  2  ------------------------------------------------------
 
