@@ -17,32 +17,32 @@ public class Homework2 {
 
         Scanner inputData = new Scanner(System.in);
         System.out.print("Enter num1 = ");
-        int userNum1 = inputData.nextInt();
+        double userNum1 = inputData.nextDouble();
         System.out.print("Enter num2 = ");
-        int userNum2 = inputData.nextInt();
-        int res1 = add(userNum1, userNum2);
-        int res2 = subtract(userNum1, userNum2);
-        int res3 = multiplay(userNum1, userNum2);
-        int res4 = divide(userNum1, userNum2);
+        double userNum2 = inputData.nextDouble();
+        double res1 = add(userNum1, userNum2);
+        double res2 = subtract(userNum1, userNum2);
+        double res3 = multiplay(userNum1, userNum2);
+        double res4 = divide(userNum1, userNum2);
 
         System.out.println("Result Add = " + res1);
         System.out.println("Result Subtract = " + res2);
         System.out.println("Result Multiplay = " + res3);
-        System.out.println("Result Divide = " + res4);
+        System.out.printf("Result Divide = %.2f ",  res4);
 
 
 
     }
-    private static int add(int userNum1, int userNum2){
+    private static double add(double userNum1, double userNum2){
         return userNum1 + userNum2;
     }
-    private static int subtract(int userNum1, int userNum2){
+    private static double subtract(double userNum1, double userNum2){
         return userNum1 - userNum2;
     }
-    private static int multiplay(int userNum1, int userNum2){
+    private static double multiplay(double userNum1, double userNum2){
         return userNum1 * userNum2;
     }
-    private static int divide(int userNum1, int userNum2){
+    private static double divide(double userNum1, double userNum2){
         return userNum1 / userNum2;
     }
 
