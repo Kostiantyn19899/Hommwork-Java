@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Homework2 {
     public static void main(String[] args) {
  // ----------------------  1  ------------------------------------------------------
-        String str = new String("I study Java");
+        String str = new String("I study Java!");
         System.out.println(str.charAt(str.length()-1));
         System.out.println(str.contains("Java"));
         System.out.println(str.substring(8, 12));
