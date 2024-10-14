@@ -19,7 +19,7 @@ public class Task3 {
                 result = result + (stepUp - stepDown);
                 System.out.println("Подьём № = " + sumUp + " равен " + result + "этажей");
             } else {
-                System.out.println("Вы поднялись на последний этаж");
+                System.out.println("Вы поднялись на последний этаж ");
                 break;
             }
         }
